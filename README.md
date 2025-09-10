@@ -92,7 +92,7 @@ LEO9-APP/
 ## Live Demo
 
 *(Will be added once deployed on Vercel/Netlify)*
-[Live Demo](#)
+[Live Demo](https://leo9-fission-tech.vercel.app/)
 
 ---
 
