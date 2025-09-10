@@ -1,12 +1,99 @@
-# React + Vite
+# Leo9 Studio - Hero Section + Navbar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend assignment project** to recreate the **Hero Section and Navigation Bar** of [Leo9 Studio](https://leo9studio.com/) with a modern, responsive, and interactive design. Built using **React, Vite, Framer Motion, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+This project is purely **frontend and static**, no backend or database is involved.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+LEO9-APP/
+├─ node_modules/
+├─ public/
+│  └─ vite.svg
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  │  ├─ Footer.jsx
+│  │  ├─ Hero.jsx
+│  │  ├─ Navbar.jsx
+│  │  └─ Sidebar.jsx
+│  ├─ App.css
+│  ├─ App.jsx
+│  ├─ index.css
+│  └─ main.jsx
+├─ .gitignore
+├─ index.html
+├─ package.json
+├─ package-lock.json
+├─ vite.config.js
+├─ tailwind.config.js
+├─ postcss.config.js
+└─ README.md
+```
+
+---
+
+## Features
+
+* **Responsive Navbar** with interactive menu links
+* **Hero Section** with animated text, buttons, and backgrounds
+* **Smooth animations** using Framer Motion
+* Optional **extra sections** below the hero (bonus)
+* Fully **responsive design** for mobile, tablet, and desktop
+
+---
+
+## Tech Stack
+
+* **Frontend:** React.js
+* **Build Tool:** Vite
+* **Animations:** Framer Motion
+* **Styling:** Tailwind CSS
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <your-github-repo-link>
+   ```
+2. Navigate into the project folder:
+
+   ```bash
+   cd LEO9-APP
+   ```
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+4. Run the project locally:
+
+   ```bash
+   npm run dev
+   ```
+5. Open the browser link shown in the terminal (default: `http://localhost:5173`)
+
+---
+
+## Usage
+
+* Explore the **navbar and hero section animations**
+* Test **responsive behavior** by resizing the browser
+* Optional: Interact with any additional sections if implemented
+
+---
+
+## Live Demo
+
+*(Will be added once deployed on Vercel/Netlify)*
+[Live Demo](#)
+
+---
+
+
